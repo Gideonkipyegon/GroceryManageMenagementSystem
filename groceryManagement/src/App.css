@@ -1,42 +1,180 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: start;
+    background-color: rgb(117, 238, 131);
+    align-items: center;
+    width: 100%;
+    height: 50%;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+    display: flex;
+    margin-left: 10px;
+    padding: 20px;
+    height: 100px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo img {
+    border-radius: 50%;
+    align-items: center;
+    height: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.home {
+    display: flex;
+    margin-left: 40px;
+    padding: 10px;
+    gap: 15px;
+    font-family: sans-serif;
+    font-size: 70px;
+    font-weight: 300px;
+    background-color: antiquewhite;
+    border-radius: 15px;
 }
 
-.card {
-  padding: 2em;
+.home>ul {
+    display: flex;
+    justify-content: end;
+    width: 100%;
 }
 
-.read-the-docs {
-  color: #888;
+.home>ul>li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    list-style: none;
+    font-size: large;
+    box-sizing: border-box;
+}
+
+.home>ul>li:hover {
+    background-color: rgb(223, 162, 82);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.login-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+    margin-left: 40%;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.login-1 button {
+    display: flex;
+    justify-content: end;
+    font-size: large;
+}
+
+.login-1 button:hover {
+    background-color: rgb(223, 162, 82);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container {
+    height: 80vh;
+}
+
+.login {
+    height: 80vh;
+}
+
+.employee {
+    height: 80vh;
+}
+
+.product {
+    height: 80vh;
+}
+
+.recieved {
+    height: 80vh;
+}
+
+.order {
+    height: 90vh;
+}
+
+.stock {
+    height: 90vh;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+    background-color: beige;
+    text-align: center;
+    font-size: large;
+}
+
+.form input {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.form button {
+    padding: 8px;
+    margin: 10px;
+}
+
+.footer {
+    background-color: rgb(117, 238, 131);
+    margin-top: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+.contact {
+    font-family: serif;
+    border-left: 3px solid red;
+    box-shadow: 10px;
+    padding: 10px;
+}
+
+.contact h4 {
+    text-decoration: underline;
+}
+
+.contact p {
+    padding-top: 7px;
 }
