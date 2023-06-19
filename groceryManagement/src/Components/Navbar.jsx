@@ -14,17 +14,9 @@ function Navbar() {
             <Link to="/Order">Order</Link>
             </li>
           <li>
-            <Link to="/OrdersReceived">OrdersReceived</Link>
-            </li>
-          <li>
-          <Link to="/Products"> Product</Link> 
+          <Link to="/Product">Product</Link> 
           </li>
-          <li>
-           <Link to="/Employees"> Employees</Link>
-          </li>
-          <li>
-            <Link to="/Stock">Stock</Link>
-          </li>
+        
         </ul>
       </div>
       <div className="login-1">

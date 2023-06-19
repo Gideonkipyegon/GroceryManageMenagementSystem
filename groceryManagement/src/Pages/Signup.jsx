@@ -16,8 +16,6 @@ function Signup() {
               <input type="password" placeholder="Password" required/> 
               <label htmlFor="">ConfirmPassword:</label> 
               <input type="password" placeholder="ConfirmPassword" required/>
-              <label htmlFor="">D.O.B:</label> 
-              <input type="date" placeholder="D.O.B"/> 
               <button>Submit</button>
               </fieldset>
             </form>
